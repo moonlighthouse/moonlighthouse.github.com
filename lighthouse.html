@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>lighthouse</title>
+	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="style/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="all">
+    	<div id="logo" data-0="background-position:50% 50px;" data-2000="background-position:50% -300px;"></div>
+        <div id="point" data-0="opacity:1;" data-1000="opacity:0;"></div>
+		<div id="sea_1" data-0="background-position:50% 450px;" data-2000="background-position:40% -180px;"></div>
+		<div id="sea_2" data-0="background-position:50% 430px;" data-2000="background-position:60% -150px;"></div>
+        <div id="sea_3" data-0="background-position:50% 410px;" data-2000="background-position:40% -120px;"></div>
+		<div id="sea_4" data-0="background-position:50% 390px;" data-2000="background-position:60% -80px;"></div>
+    	<div id="lighthouse" data-0="background-position:15% 110px;" data-2000="background-position:20% -350px;"></div>
+        <div id="sun" data-0="background-position:70% 50px;" data-2000="background-position:70% -350px;"></div>
+        <div id="cloud" data-0="background-position:-10% 100px;" data-2000="background-position:0% -300px;"></div>
+        <div id="cloud" data-0="background-position:110% 70px;" data-2000="background-position:110% -330px;"></div>
+    	<div id="sky" data-0="background-position:50% 0px;" data-2000="background-position:50% 0px;"></div>
+    
+    	<div id="ship" data-0="background-position:80% 110px;" data-2000="background-position:70% -460px;"></div>
+        <div id="pop1" data-0="background-position:50% 600px;top:500px;opacity:0;" data-500="background-position:50% 600px;top:400px;opacity:1;" data-2000="background-position:50% -800px;top:0px;opacity:0;"></div>
+        <div id="pop2" data-0="background-position:50% 600px;top:500px;opacity:0;" data-500="background-position:50% 600px;top:400px;opacity:1;" data-2000="background-position:50% -400px;top:0px;opacity:0;"></div>
+    </div>
+
+	<script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+</body>
+</html>
