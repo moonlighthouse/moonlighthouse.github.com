@@ -116,19 +116,26 @@ h4 {
 	background-image:url(../images/ship.svg);
 }
 
+#sea_1 {
+	background-size:2100px auto;
+}
+
 #sea_2 {
 	z-index:49;
 	background-image:url(../images/sea_2.svg);
+	background-size:2100px auto;
 }
 
 #sea_3 {
 	z-index:48;
 	background-image:url(../images/sea_3.svg);
+	background-size:2100px auto;
 }
 
 #sea_4 {
 	z-index:47;
 	background-image:url(../images/sea_4.svg);
+	background-size:2100px auto;
 }
 
 #lighthouse {
