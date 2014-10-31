@@ -21,9 +21,9 @@ html, body, div, {
 	z-index:10;
 	top:0%;
 	left:0%;
-        margin-top:-200%;
+        margin-top:-500px;
 	width:200%;
-	height:200%;
+	height:500px;
 	background:url(svg/bg_mountain.svg) no-repeat;
 	background-size:100%;
 }
