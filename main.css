@@ -21,8 +21,8 @@ html, body, div, {
 	z-index:10;
 	top:0%;
 	left:0%;
-        margin-top:-200px;
-	width:200%;
+    margin-top:-280px;
+	width:3000px;
 	height:500px;
 	background:url(svg/bg_mountain.svg) no-repeat;
 	background-size:100%;
@@ -441,6 +441,20 @@ html, body, div, {
 	background-size:100%;
 }
 
+#beach {
+	position:fixed;
+	z-index:60;
+	top:80%;
+	left:50%;
+	margin-left:-109px;
+	margin-top:0px;
+	width:218px;
+	height:400px;
+	background-image:url(svg/beach.svg);
+	background-size:100%;
+}
+
+
 #boat {
 	position:fixed;
 	z-index:30;
@@ -711,6 +725,391 @@ html, body, div, {
 }
 
 @media handheld, only screen and (max-width: 1400px) {
+
+#operation {
+	margin-left:-137px;
+	margin-top:-42px;
+	width:275px;
+	height:84px;
+}
+
+#plane {
+	margin-left:-78px;
+	margin-top:-68px;
+	width:156px;
+	height:136px;
+}
+
+#cloud_1, #cloud_2, #cloud_3, #cloud_4 {
+	width:100px;
+	height:45px;
+}
+
+#cloud_2 {
+	width:122px;
+	height:50px;
+}
+
+#cloud_3 {
+	width:127px;
+	height:52px;
+}
+
+#cloud_4 {
+	width:63px;
+	height:26px;
+}
+
+#title_1, #title_2, #title_3, #title_4 {
+	margin-left:-111px;
+	margin-top:-23px;
+	width:223px;
+	height:46px;
+}
+
+#title_2 {
+	margin-left:-131px;
+	width:263px;
+}
+
+#title_3 {
+	margin-left:-131px;
+	margin-top:-48px;
+	width:263px;
+	height:96px;
+}
+
+#title_4 {
+	margin-left:-112px;
+	margin-top:-48px;
+	width:225px;
+	height:96px;
+}
+
+#title_5 {
+	margin-left:-112px;
+	margin-top:-48px;
+	width:225px;
+	height:96px;
+}
+
+#title_6 {
+	margin-left:-112px;
+	margin-top:-48px;
+	width:225px;
+	height:96px;
+}
+
+#title_7 {
+	margin-left:-112px;
+	margin-top:-48px;
+	width:225px;
+	height:96px;
+}
+
+#mountain_1,#mountain_2,#mountain_3,#mountain_4 {
+	margin-left:-127px;
+	margin-top:-280px;
+	width:254px;
+	height:280px;
+}
+
+#mountain_2 {
+	margin-top:-242px;
+	height:242px;
+}
+
+#mountain_3 {
+	margin-top:-375px;
+	height:375px;
+}
+
+#mountain_4 {
+	margin-top:-144px;
+	height:144px;
+}	
+
+#tiantan {
+	margin-left:-177px;
+	margin-top:-340px;
+	width:354px;
+	height:340px;
+}
+
+#airport {
+	margin-left:-167px;
+	margin-top:-447px;
+	width:334px;
+	height:447px;
+}
+
+#car {
+	margin-left:-60px;
+	margin-top:-127px;
+	width:121px;
+	height:127px;
+}
+
+#build_shadow {
+	margin-left:0px;
+	margin-top:-293px;
+	width:1823px;
+	height:293px;
+}
+
+#tree {
+	margin-left:-43px;
+	margin-top:-118px;
+	width:87px;
+	height:118px;
+}
+
+#gress_1,#gress_2 {
+	margin-left:-6px;
+	margin-top:-18px;
+	width:13px;
+	height:18px;
+}
+
+#gress_2 {
+	margin-left:-10px;
+	margin-top:-19px;
+	width:20px;
+	height:19px;
+}
+
+#education_1 {
+	margin-left:-184px;
+	margin-top:-292px;
+	width:368px;
+	height:292px;
+}	
+
+#education_2 {
+	margin-left:-181px;
+	margin-top:-393px;
+	width:362px;
+	height:393px;
+}
+
+#zeppelin {
+	margin-left:0px;
+	margin-top:-36px;
+	width:161px;
+	height:73px;
+}
+
+#station {
+	margin-left:12px;
+	margin-top:-60px;
+	width:25px;
+	height:60px;
+}	
+
+#poles {
+	margin-left:-157px;
+	margin-top:-166px;
+	width:314px;
+	height:166px;
+}
+
+#trash {
+	margin-left:-12px;
+	margin-top:-29px;
+	width:24px;
+	height:29px;
+}	
+
+#deep_creative {
+	margin-left:-76px;
+	margin-top:-280px;
+	width:152px;
+	height:280px;
+}
+
+#postbox {
+	margin-left:-10px;
+	margin-top:-45px;
+	width:21px;
+	height:45px;
+}
+
+#margin_media {
+	margin-left:-90px;
+	margin-top:-342px;
+	width:181px;
+	height:342px;
+}
+
+#cheil_opentide {
+	margin-left:-85px;
+	margin-top:-367px;
+	width:171px;
+	height:367px;
+}
+
+#roadblocks {
+	margin-left:-10px;
+	margin-top:-23px;
+	width:21px;
+	height:23px;
+}
+
+#dock {
+	margin-left:-213px;
+	margin-top:-256px;
+	width:426px;
+	height:406px;
+}
+
+#boat {
+	margin-left:-76px;
+	margin-top:-100px;
+	width:152px;
+	height:184px;
+}
+
+#sea_1 {
+	width:1984px;
+	height:700px;
+}
+
+#sea_2 {
+	width:2506px;
+	height:847px;
+}
+
+#sea_3 {
+	width:2337px;
+	height:1644px;
+}
+
+#sea_4 {
+	width:2235px;
+	height:1615px;
+}
+
+#tortoise {
+	margin-left:-44px;
+	margin-top:-24px;
+	width:88px;
+	height:49px;
+}
+
+#fish_1, #fish_2, #fish_3 {
+	margin-left:-27px;
+	margin-top:-18px;
+	width:54px;
+	height:37px;
+}
+
+#pop_1, #pop_2, #pop_3, #pop_4, #pop_5, #pop_ai, #pop_dw, #pop_ps, #pop_fl {
+	margin-left:-26px;
+	margin-top:-26px;
+	width:52px;
+	height:52px;
+}
+
+#pop_2 {
+	margin-left:-22px;
+	margin-top:-22px;
+	width:45px;
+	height:45px;
+}
+
+#pop_3 {
+	margin-left:-20px;
+	margin-top:-20px;
+	width:40px;
+	height:40px;
+}
+
+#pop_4 {
+	margin-left:-17px;
+	margin-top:-17px;
+	width:35px;
+	height:35px;
+}
+
+#pop_5 {
+	margin-left:-15px;
+	margin-top:-15px;
+	width:30px;
+	height:30px;
+}
+
+#pop_ai {
+	margin-left:-30px;
+	margin-top:-30px;
+	width:60px;
+	height:60px;
+}
+
+#pop_dw {
+	margin-left:-33px;
+	margin-top:-33px;
+	width:67px;
+	height:67px;
+}
+
+#pop_fl {
+	margin-left:-37px;
+	margin-top:-37px;
+	width:74px;
+	height:74px;
+}
+
+#pop_ps {
+	margin-left:-44px;
+	margin-top:-44px;
+	width:89px;
+	height:89px;
+}
+
+#octopus {
+	margin-left:-213px;
+	margin-top:-227px;
+	width:426px;
+	height:455px;
+}
+
+#tentacle_1 {
+	width:1000px;
+	height:544px;
+}
+
+#tentacle_2 {
+	width:692px;
+	height:612px;
+}
+
+#tentacle_3 {
+	width:400px;
+	height:556px;
+}
+
+#lighthouse {
+	margin-left:-235px;
+	margin-top:-405px;
+	width:471px;
+	height:405px;
+}
+
+#sun {
+	margin-left:-300px;
+	margin-top:-300px;
+	width:600px;
+	height:600px;
+}
+	
+#contact_me {
+	margin-left:-180px;
+	margin-top:-67px;
+	width:360px;
+	height:134px;
+}
+}
+@media handheld, only screen and (max-width: 1024px) {
 
 #operation {
 	margin-left:-137px;
