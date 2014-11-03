@@ -8,6 +8,9 @@
 
 	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="main.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    	<script type="text/javascript"  src="jquery.ua.min.js"></script>
 
 <body>
 	<div id="sky"></div>
@@ -102,6 +105,10 @@
 	<![endif]-->
 
 	<script type="text/javascript">
+	if($.ua().isMobile==true)
+	{
+		window.open("index_mobile.html",'_self') 
+	};
 	var s = skrollr.init({
 		edgeStrategy: 'set',
 		easing: {
