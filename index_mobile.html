@@ -9,8 +9,6 @@
 
 	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="main.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
-    <script type="text/javascript"  src="jquery.ua.min.js"></script>
 
 <body>
 	<div id="sky"></div>
@@ -68,9 +66,9 @@
     <div id="beach" data-7000="left:150%;" data-11000="left:-50%;"></div>
     <div id="boat" data-9000="left:120%;" data-10500="left:50%; top:80%;" data-11500="top:81%;" data-14500="top:-15%;"></div>
     
-    <div id="sea_1" data-3500="left:150%;" data-10500="left:-20%; top:80%;" data-11500="left:-20%; top:79%;" data-14500="left:-20%; top:-10%;" data-16600="left:-20%; top:-10%;" data-16601="left:-20%; top:80%;"></div>
-    <div id="sea_2" data-4500="left:150%;" data-10500="left:-15%; top:81%;" data-11500="left:-15%; top:80%;" data-14500="left:-20%; top:-10%;" data-16500="left:-20%; top:-10%;" data-16501="left:-20%; top:81%;"></div>
-    <div id="sea_3" data-5500="left:150%;" data-10500="left:-20%; top:85%;" data-11500="left:-20%; top:86%;" data-14500="left:-20%; top:-10%;" data-16400="left:-20%; top:-10%;" data-16401="left:-20%; top:85%;"></div>
+    <div id="sea_1" data-3500="left:150%;" data-10500="left:-20%; top:80%;" data-11500="left:-20%; top:79%;" data-14500="left:-20%; top:-10%;" data-16300="left:-20%; top:-10%;" data-16301="left:-20%; top:80%;"></div>
+    <div id="sea_2" data-4500="left:150%;" data-10500="left:-15%; top:81%;" data-11500="left:-15%; top:80%;" data-14500="left:-20%; top:-10%;" data-16300="left:-20%; top:-10%;" data-16301="left:-20%; top:81%;"></div>
+    <div id="sea_3" data-5500="left:150%;" data-10500="left:-20%; top:85%;" data-11500="left:-20%; top:86%;" data-14500="left:-20%; top:-10%;" data-16300="left:-20%; top:-10%;" data-16301="left:-20%; top:85%;"></div>
     <div id="sea_4" data-7000="left:150%;" data-10500="left:-25%; top:86%;" data-11500="left:-25%; top:87%;" data-14500="left:-20%; top:-10%;" data-16300="left:-20%; top:-10%;" data-16301="left:-20%; top:86%;"></div>
     
 	<div id="tortoise" data-12500="left:-25%; top:90%;" data-15500="left:125%; top:0%;"></div>
@@ -96,7 +94,7 @@
     
     <div id="sun" data-17400="opacity:0; top:100%;" data-18000="opacity:1; top:85%;"></div>
     <div id="lighthouse" data-16700="opacity:0;" data-16701="opacity:1;"></div>
-    <div id="contact_me" data-17400="top:35%; opacity:0;" data-18000="top:40%; opacity:1;"></div>
+    <div id="contact_me" data-17400="top:40%; opacity:0;" data-18000="top:50%; opacity:1;"></div>
     
     <script type="text/javascript" src="dist/skrollr.min.js"></script>
 
@@ -105,10 +103,6 @@
 	<![endif]-->
 
 	<script type="text/javascript">
-	if($.ua().isMobile==true)
-	{
-		window.open("index_mobile.html",'_self') 
-	};
 	var s = skrollr.init({
 		edgeStrategy: 'set',
 		easing: {

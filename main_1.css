@@ -93,7 +93,7 @@ html, body, div, {
 }
 
 #cloud_4 {
-	top:7%;
+	top:15%;
 	width:126px;
 	height:52px;
 	background-image:url(svg/cloud_4.svg);
@@ -104,7 +104,7 @@ html, body, div, {
 	z-index:50;
 	margin-left:0px;
 	margin-top:0px;
-	width:100%;
+	width:2000px;
 	height:100%;
 	background-color:#C9B98F;
 }
@@ -212,32 +212,6 @@ html, body, div, {
 	background-size:100%;
 }
 
-#airport {
-	position:fixed;
-	z-index:60;
-	top:95%;
-	left:50%;
-	margin-left:-250px;
-	margin-top:-670px;
-	width:501px;
-	height:670px;
-	background-image:url(svg/airport.svg);
-	background-size:100%;
-}
-
-#car {
-	position:fixed;
-	z-index:55;
-	top:93%;
-	left:50%;
-	margin-left:-91px;
-	margin-top:-191px;
-	width:182px;
-	height:191px;
-	background-image:url(svg/car.svg);
-	background-size:100%;
-}
-
 #build_shadow {
 	position:fixed;
 	z-index:30;
@@ -245,9 +219,9 @@ html, body, div, {
 	left:50%;
 	margin-left:0px;
 	margin-top:-439px;
-	width:2735px;
+	width:1380px;
 	height:439px;
-	background-image:url(svg/build_shadow.svg);
+	background:url(svg/build_shadow.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -326,7 +300,7 @@ html, body, div, {
 
 #station {
 	position:fixed;
-	z-index:40;
+	z-index:50;
 	top:80%;
 	left:50%;
 	margin-left:-19px;
@@ -378,7 +352,7 @@ html, body, div, {
 
 #postbox {
 	position:fixed;
-	z-index:30;
+	z-index:50;
 	top:80%;
 	left:50%;
 	margin-left:-15px;
@@ -417,7 +391,7 @@ html, body, div, {
 
 #roadblocks {
 	position:fixed;
-	z-index:30;
+	z-index:50;
 	top:80%;
 	left:50%;
 	margin-left:-15px;
@@ -446,9 +420,9 @@ html, body, div, {
 	z-index:60;
 	top:80%;
 	left:50%;
-	margin-left:-109px;
+	margin-left:-250px;
 	margin-top:0px;
-	width:218px;
+	width:500px;
 	height:400px;
 	background-image:url(svg/beach.svg);
 	background-size:100%;
@@ -724,484 +698,157 @@ html, body, div, {
 	background-size:100%;
 }
 
-
-@media handheld, only screen and (max-width: 1400px) {
-
-#operation {
-	margin-left:-137px;
-	margin-top:-42px;
-	width:275px;
-	height:84px;
-}
-/*
-#plane {
-	margin-left:-78px;
-	margin-top:-68px;
-	width:156px;
-	height:136px;
-}
-*/
-#cloud_1, #cloud_2, #cloud_3, #cloud_4 {
-	width:100px;
-	height:45px;
+@media handheld, only screen and (max-height: 850px) {
+	
+#mountain_1,#mountain_2,#mountain_3,#mountain_4 {
+	margin-left:-142px;
+	margin-top:-315px;
+	width:285px;
+	height:315px;
 }
 
-#cloud_2 {
-	width:122px;
+#mountain_2 {
+	margin-top:-272px;
+	height:272px;
+}
+
+#mountain_3 {
+	margin-top:-421px;
+	height:421px;
+}
+
+#mountain_4 {
+	margin-top:-162px;
+	height:162px;
+}	
+
+#tiantan {
+	margin-left:-199px;
+	margin-top:-381px;
+	width:398px;
+	height:381px;
+}
+
+#education_1 {
+	margin-left:-207px;
+	margin-top:-328px;
+	width:414px;
+	height:328px;
+}	
+
+#education_2 {
+	margin-left:-203px;
+	margin-top:-441px;
+	width:407px;
+	height:441px;
+}
+#tree {
+	margin-left:-49px;
+	margin-top:-132px;
+	width:98px;
+	height:132px;
+}
+
+#gress_1,#gress_2 {
+	margin-left:-7px;
+	margin-top:-20px;
+	width:15px;
+	height:20px;
+}
+
+#gress_2 {
+	margin-left:-11px;
+	margin-top:-21px;
+	width:22px;
+	height:21px;
+}
+
+#station {
+	margin-left:-14px;
+	margin-top:-67px;
+	width:28px;
+	height:67px;
+}	
+
+#poles {
+	margin-left:-176px;
+	margin-top:-186px;
+	width:353px;
+	height:186px;
+}
+
+#trash {
+	margin-left:-13px;
+	margin-top:-32px;
+	width:27px;
+	height:32px;
+}	
+	
+#deep_creative {
+	margin-left:-85px;
+	margin-top:-315px;
+	width:171px;
+	height:315px;
+}
+
+#postbox {
+	margin-left:-11px;
+	margin-top:-50px;
+	width:23px;
 	height:50px;
 }
 
-#cloud_3 {
-	width:127px;
-	height:52px;
-}
-
-#cloud_4 {
-	width:63px;
-	height:26px;
-}
-
-#title_1, #title_2, #title_3, #title_4 {
-	margin-left:-111px;
-	margin-top:-23px;
-	width:223px;
-	height:46px;
-}
-
-#title_2 {
-	margin-left:-131px;
-	width:263px;
-}
-
-#title_3 {
-	margin-left:-131px;
-	margin-top:-48px;
-	width:263px;
-	height:96px;
-}
-
-#title_4 {
-	margin-left:-112px;
-	margin-top:-48px;
-	width:225px;
-	height:96px;
-}
-
-#title_5 {
-	margin-left:-112px;
-	margin-top:-48px;
-	width:225px;
-	height:96px;
-}
-
-#title_6 {
-	margin-left:-112px;
-	margin-top:-48px;
-	width:225px;
-	height:96px;
-}
-
-#title_7 {
-	margin-left:-112px;
-	margin-top:-48px;
-	width:225px;
-	height:96px;
-}
-
-#mountain_1,#mountain_2,#mountain_3,#mountain_4 {
-	margin-left:-127px;
-	margin-top:-280px;
-	width:254px;
-	height:280px;
-}
-
-#mountain_2 {
-	margin-top:-242px;
-	height:242px;
-}
-
-#mountain_3 {
-	margin-top:-375px;
-	height:375px;
-}
-
-#mountain_4 {
-	margin-top:-144px;
-	height:144px;
-}	
-
-#tiantan {
-	margin-left:-177px;
-	margin-top:-340px;
-	width:354px;
-	height:340px;
-}
-
-#tree {
-	margin-left:-43px;
-	margin-top:-118px;
-	width:87px;
-	height:118px;
-}
-
-#gress_1,#gress_2 {
-	margin-left:-6px;
-	margin-top:-18px;
-	width:13px;
-	height:18px;
-}
-
-#gress_2 {
-	margin-left:-10px;
-	margin-top:-19px;
-	width:20px;
-	height:19px;
-}
-
-#education_1 {
-	margin-left:-184px;
-	margin-top:-292px;
-	width:368px;
-	height:292px;
-}	
-
-#education_2 {
-	margin-left:-181px;
-	margin-top:-393px;
-	width:362px;
-	height:393px;
-}
-
-#zeppelin {
-	margin-left:0px;
-	margin-top:-36px;
-	width:161px;
-	height:73px;
-}
-
-#station {
-	margin-left:12px;
-	margin-top:-60px;
-	width:25px;
-	height:60px;
-}	
-
-#poles {
-	margin-left:-157px;
-	margin-top:-166px;
-	width:314px;
-	height:166px;
-}
-
-#trash {
-	margin-left:-12px;
-	margin-top:-29px;
-	width:24px;
-	height:29px;
-}	
-
-#deep_creative {
-	margin-left:-76px;
-	margin-top:-280px;
-	width:152px;
-	height:280px;
-}
-
-#postbox {
-	margin-left:-10px;
-	margin-top:-45px;
-	width:21px;
-	height:45px;
-}
-
 #margin_media {
-	margin-left:-90px;
-	margin-top:-342px;
-	width:181px;
-	height:342px;
+	margin-left:-101px;
+	margin-top:-384px;
+	width:203px;
+	height:384px;
 }
 
 #cheil_opentide {
-	margin-left:-85px;
-	margin-top:-367px;
-	width:171px;
-	height:367px;
+	margin-left:-96px;
+	margin-top:-411px;
+	width:192px;
+	height:411px;
 }
 
 #roadblocks {
-	margin-left:-10px;
-	margin-top:-23px;
-	width:21px;
-	height:23px;
-}
-/*
-#boat {
-	margin-left:-76px;
-	margin-top:-100px;
-	width:152px;
-	height:184px;
-}
-*/
-#sea_1 {
-	width:1984px;
-	height:200px;
-}
-
-#sea_2 {
-	width:2506px;
-	height:200px;
-}
-
-#sea_3 {
-	width:2337px;
-	height:1644px;
-}
-
-#sea_4 {
-	width:2235px;
-	height:1615px;
-}
-/*
-#tortoise {
-	margin-left:-44px;
-	margin-top:-24px;
-	width:88px;
-	height:49px;
-}
-
-#fish_1, #fish_2, #fish_3 {
-	margin-left:-27px;
-	margin-top:-18px;
-	width:54px;
-	height:37px;
-}
-
-#pop_1, #pop_2, #pop_3, #pop_4, #pop_5, #pop_ai, #pop_dw, #pop_ps, #pop_fl {
-	margin-left:-26px;
-	margin-top:-26px;
-	width:52px;
-	height:52px;
-}
-
-#pop_2 {
-	margin-left:-22px;
-	margin-top:-22px;
-	width:45px;
-	height:45px;
-}
-
-#pop_3 {
-	margin-left:-20px;
-	margin-top:-20px;
-	width:40px;
-	height:40px;
-}
-
-#pop_4 {
-	margin-left:-17px;
-	margin-top:-17px;
-	width:35px;
-	height:35px;
-}
-
-#pop_5 {
-	margin-left:-15px;
-	margin-top:-15px;
-	width:30px;
-	height:30px;
-}
-
-#pop_ai {
-	margin-left:-30px;
-	margin-top:-30px;
-	width:60px;
-	height:60px;
-}
-
-#pop_dw {
-	margin-left:-33px;
-	margin-top:-33px;
-	width:67px;
-	height:67px;
-}
-
-#pop_fl {
-	margin-left:-37px;
-	margin-top:-37px;
-	width:74px;
-	height:74px;
-}
-
-#pop_ps {
-	margin-left:-44px;
-	margin-top:-44px;
-	width:89px;
-	height:89px;
-}
-
-#octopus {
-	margin-left:-213px;
-	margin-top:-227px;
-	width:426px;
-	height:455px;
-}
-
-#tentacle_1 {
-	width:1000px;
-	height:544px;
-}
-
-#tentacle_2 {
-	width:692px;
-	height:612px;
-}
-
-#tentacle_3 {
-	width:400px;
-	height:556px;
+	margin-left:-11px;
+	margin-top:-25px;
+	width:23px;
+	height:25px;
 }
 
 #lighthouse {
-	margin-left:-235px;
-	margin-top:-405px;
-	width:471px;
-	height:405px;
+	margin-left:-264px;
+	margin-top:-455px;
+	width:529px;
+	height:455px;
 }
 
 #sun {
-	margin-left:-300px;
-	margin-top:-300px;
-	width:600px;
-	height:600px;
+	position:fixed;
+	z-index:10;
+	top:85%;
+	left:20%;
+	margin-left:-400px;
+	margin-top:-400px;
+	width:800px;
+	height:800px;
+	background-image:url(svg/sun.svg);
+	background-size:100%;
 }
 	
 #contact_me {
-	margin-left:-180px;
-	margin-top:-67px;
-	width:360px;
-	height:134px;
-}
-*/
-}
-@media handheld, only screen and (max-width: 1000px) {
-
-#mountain_1,#mountain_2,#mountain_3,#mountain_4 {
-	margin-left:-95px;
-	margin-top:-210px;
-	width:191px;
-	height:210px;
-}
-
-#mountain_2 {
-	margin-top:-181px;
-	height:181px;
-}
-
-#mountain_3 {
-	margin-top:-281px;
-	height:281px;
-}
-
-#mountain_4 {
-	margin-top:-108px;
-	height:108px;
-}	
-
-#tiantan {
-	margin-left:-133px;
-	margin-top:-255px;
-	width:266px;
-	height:255px;
-}
-
-#tree {
-	margin-left:-33px;
-	margin-top:-88px;
-	width:66px;
-	height:88px;
-}
-
-#gress_1,#gress_2 {
-	margin-left:-5px;
-	margin-top:-14px;
-	width:10px;
-	height:14px;
-}
-
-#gress_2 {
-	margin-left:-8px;
-	margin-top:-14px;
-	width:15px;
-	height:14px;
-}
-
-#education_1 {
-	margin-left:-138px;
-	margin-top:-219px;
-	width:276px;
-	height:219px;
-}	
-
-#education_2 {
-	margin-left:-136px;
-	margin-top:-294px;
-	width:272px;
-	height:294px;
-}
-
-#station {
-	margin-left:10px;
-	margin-top:-45px;
-	width:19px;
-	height:45px;
-}	
-
-#poles {
-	margin-left:-118px;
-	margin-top:-124px;
-	width:236px;
-	height:124px;
-}
-
-#trash {
-	margin-left:-9px;
-	margin-top:-21px;
-	width:18px;
-	height:21px;
-}	
-
-#deep_creative {
-	margin-left:-57px;
-	margin-top:-210px;
-	width:114px;
-	height:210px;
-}
-
-#postbox {
-	margin-left:-8px;
-	margin-top:-34px;
-	width:16px;
-	height:34px;
-}
-
-#margin_media {
-	margin-left:-68px;
-	margin-top:-256px;
-	width:136px;
-	height:256px;
-}
-
-#cheil_opentide {
-	margin-left:-64px;
-	margin-top:-276px;
-	width:128px;
-	height:276px;
-}
-
-#roadblocks {
-	margin-left:-8px;
-	margin-top:-17px;
-	width:16px;
-	height:17px;
+	position:fixed;
+	z-index:30;
+	top:80%;
+	left:50%;
+	margin-left:-270px;
+	margin-top:-100px;
+	width:540px;
+	height:201px;
+	background-image:url(svg/contact_me.svg);
+	background-size:100%;
 }
 }

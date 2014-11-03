@@ -1,11 +1,12 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="218px" height="400px" viewBox="0 0 218 400">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="500px" height="400px" viewBox="0 0 500 400">
 <defs>
 <g id="Layer0_0_FILL">
 <path fill="#C9B98F" stroke="none" d="
-M 218 109
-Q 218 63.85 186.05 31.9 154.15 0 109 0
-L 0 0 0 400 218 400 218 109 Z"/>
+M 394 0.05
+Q 392.5 0 391 0
+L 0 0 0.2 400 500 400 500 109
+Q 500 63.85 468.05 31.9 437.2 1.05 394 0.05 Z"/>
 </g>
 </defs>
 
