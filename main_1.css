@@ -5,6 +5,18 @@ html, body, div, {
 	vertical-align: baseline;
 }
 
+#info {
+	position: fixed;
+	z-index: 100;
+	margin-left: -100px;
+	margin-top: -20px;
+	width: 100px;
+	height: 20px;
+	bottom: 15px;
+	right: 10px;
+	text-align: center;
+}
+
 #sky {
 	z-index:0;
 	top:0;
