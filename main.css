@@ -215,7 +215,7 @@ html, body, div, a, a:hover {
 #mountain_2 {
 	margin-top:-363px;
 	height:363px;
-	background-images:url(svg/mountain_illustration.svg);
+	background-image:url(svg/mountain_illustration.svg);
 }
 
 #mountain_3 {
