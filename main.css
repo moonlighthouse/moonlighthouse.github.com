@@ -134,16 +134,16 @@ html, body, div, a, a:hover {
 	background-color:#C9B98F;
 }
 
-#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7 {
+#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7, #title_8 {
 	position:fixed;
 	z-index:105;
 	top:10%;
 	left:100%;
-	margin-left:-167px;
+	margin-left:-238px;
 	margin-top:-35px;
-	width:335px;
+	width:477px;
 	height:69px;
-	background-image:url(svg/title_1.svg);
+	background:url(svg/title_1.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -193,6 +193,12 @@ html, body, div, a, a:hover {
 	background-image:url(svg/title_7.svg);
 }
 
+#title_8 {
+	margin-left:-197px;
+	width:395px;
+	background-image:url(svg/title_8.svg);
+}
+
 #mountain_1,#mountain_2,#mountain_3,#mountain_4 {
 	position:fixed;
 	z-index:49;
@@ -235,6 +241,19 @@ html, body, div, a, a:hover {
 	height:509px;
 	background-image:url(svg/tiantan.svg);
 	background-size:100%;
+}
+
+#game {
+	position:fixed;
+	z-index:49;
+	top:80%;
+	left:50%;
+	margin-left:-127px;
+	margin-top:-480px;
+	width:255px;
+	height:480px;
+	background:url(svg/game.svg) no-repeat;
+	background-size:100%;	
 }
 
 #build_shadow {
@@ -308,6 +327,10 @@ html, body, div, a, a:hover {
 	height:146px;
 	background-image:url(svg/info_1.svg);
 	background-size:100%;
+	-webkit-animation:info_small 0.3s 1 ;
+			animation:info_small 0.3s 1 ;
+	-webkit-animation-fill-mode:forwards; 	
+			animation-fill-mode:forwards; 
 }
 
 #info_2 {
@@ -786,6 +809,13 @@ html, body, div, a, a:hover {
 	height:381px;
 }
 
+#game {
+	margin-left:-95px;
+	margin-top:-360px;
+	width:191px;
+	height:360px;	
+}
+
 #info_1, #info_2, #info_3, #info_4, #info_5 {
 	margin-left:-54px;
 	margin-top:-296px;
@@ -946,10 +976,10 @@ html, body, div, a, a:hover {
 	height:84px;
 }
 
-#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7 {
-	margin-left:-125px;
+#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7, #title_8 {
+	margin-left:-167px;
 	margin-top:-25px;
-	width:251px;
+	width:335px;
 	height:51px;
 }
 
@@ -971,6 +1001,12 @@ html, body, div, a, a:hover {
 	width:253px;
 	height:108px;
 }
+
+#title_8 {
+	margin-left:-148px;
+	width:296px;
+}
+
 }
 
 @media handheld, only screen and (max-width: 1200px) {
@@ -1214,10 +1250,10 @@ html, body, div, a, a:hover {
 	height:121px;
 }
 
-#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7 {
-	margin-left:-125px;
+#title_1, #title_2, #title_3, #title_4, #title_5, #title_6, #title_7, #title_8 {
+	margin-left:-167px;
 	margin-top:-25px;
-	width:251px;
+	width:335px;
 	height:51px;
 }
 
@@ -1240,11 +1276,23 @@ html, body, div, a, a:hover {
 	height:108px;
 }
 
+#title_8 {
+	margin-left:-148px;
+	width:296px;
+}
+
 #tiantan {
 	margin-left:-149px;
 	margin-top:-285px;
 	width:298px;
 	height:285px;
+}
+
+#game {
+	margin-left:-63px;
+	margin-top:-240px;
+	width:127px;
+	height:240px;
 }
 
 #info_1, #info_2, #info_3, #info_4, #info_5 {
@@ -1496,5 +1544,26 @@ html, body, div, a, a:hover {
   100% {
 	  -webkit-transform: scaleY(2) scaleX(2);
             transform: scaleY(2) scaleX(2);
+	}
+}
+
+@-webkit-keyframes info_small {
+  0% {
+	  -webkit-transform: scaleY(2) scaleX(2);
+            transform: scaleY(2) scaleX(2);
+	}
+  100% {
+	  -webkit-transform: scaleY(1) scaleX(1);
+            transform: scaleY(1) scaleX(1);
+	}
+}
+@keyframes info_small {
+  0% {
+	  -webkit-transform: scaleY(2) scaleX(2);
+            transform: scaleY(2) scaleX(2);
+	}
+  100% {
+	  -webkit-transform: scaleY(1) scaleX(1);
+            transform: scaleY(1) scaleX(1);
 	}
 }
