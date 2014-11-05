@@ -23,7 +23,7 @@ html, body, div, a, a:hover {
 	left:0;
 	width:100%;
 	height:100%;
-	background:url(svg/sky.svg);
+	background:url(svg/sky.svg) no-repeat;
 	background-size:100% 100%;
 	position:fixed;
 }
@@ -41,7 +41,7 @@ html, body, div, a, a:hover {
 }
 
 #logo {
-	position:fixed;
+	no-repeatposition:fixed;
 	z-index:101;
 	top:40%;
 	left:50%;
@@ -49,7 +49,7 @@ html, body, div, a, a:hover {
 	margin-top:-250px;
 	width:500px;
 	height:500px;
-	background-image:url(svg/logo.svg);
+	background:url(svg/logo.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -62,7 +62,7 @@ html, body, div, a, a:hover {
 	margin-top:-63px;
 	width:412px;
 	height:126px;
-	background-image:url(svg/operation_suggests.svg);
+	background:url(svg/operation_suggests.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -73,7 +73,7 @@ html, body, div, a, a:hover {
 	margin-top:116px;
 	width:6px;
 	height:56px;
-	background-image:url(svg/luoxuan.svg);
+	background:url(svg/luoxuan.svg) no-repeat;
 	background-size:100%;
 	-webkit-animation: luoxuan 0.2s linear infinite;
             animation: luoxuan 0.2s linear infinite;	
@@ -88,7 +88,7 @@ html, body, div, a, a:hover {
 	margin-top:-102px;
 	width:234px;
 	height:204px;
-	background-image:url(svg/plane.svg);
+	background:url(svg/plane.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -99,7 +99,7 @@ html, body, div, a, a:hover {
 	left:100%;
 	width:200px;
 	height:90px;
-	background-image:url(svg/cloud_1.svg);
+	background:url(svg/cloud_1.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -107,21 +107,21 @@ html, body, div, a, a:hover {
 	top:15%;
 	width:244px;
 	height:100px;
-	background-image:url(svg/cloud_2.svg);
+	background:url(svg/cloud_2.svg) no-repeat;
 }
 
 #cloud_3 {
 	top:20%;
 	width:254px;
 	height:104px;
-	background-image:url(svg/cloud_3.svg);
+	background:url(svg/cloud_3.svg) no-repeat;
 }
 
 #cloud_4 {
 	top:15%;
 	width:126px;
 	height:52px;
-	background-image:url(svg/cloud_4.svg);
+	background:url(svg/cloud_4.svg) no-repeat;
 }
 
 #land {
@@ -150,7 +150,7 @@ html, body, div, a, a:hover {
 #title_2 {
 	margin-left:-197px;
 	width:395px;
-	background-image:url(svg/title_2.svg);
+	background:url(svg/title_2.svg) no-repeat;
 }
 
 #title_3 {
@@ -158,7 +158,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:395px;
 	height:144px;
-	background-image:url(svg/title_3.svg);
+	background:url(svg/title_3.svg) no-repeat;
 }
 
 #title_4 {
@@ -166,7 +166,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_4.svg);
+	background:url(svg/title_4.svg) no-repeat;
 }
 
 #title_5 {
@@ -174,7 +174,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_5.svg);
+	background:url(svg/title_5.svg) no-repeat;
 }
 
 #title_6 {
@@ -182,7 +182,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_6.svg);
+	background:url(svg/title_6.svg) no-repeat;
 }
 
 #title_7 {
@@ -190,13 +190,13 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_7.svg);
+	background:url(svg/title_7.svg) no-repeat;
 }
 
 #title_8 {
 	margin-left:-197px;
 	width:395px;
-	background-image:url(svg/title_8.svg);
+	background:url(svg/title_8.svg) no-repeat;
 }
 
 #mountain_1,#mountain_2,#mountain_3,#mountain_4 {
@@ -208,26 +208,26 @@ html, body, div, a, a:hover {
 	margin-top:-420px;
 	width:381px;
 	height:420px;
-	background-image:url(svg/mountain_design.svg);
+	background:url(svg/mountain_design.svg) no-repeat;
 	background-size:100%;
 }
 
 #mountain_2 {
 	margin-top:-363px;
 	height:363px;
-	background-image:url(svg/mountain_illustration.svg);
+	background:url(svg/mountain_illustration.svg) no-repeat;
 }
 
 #mountain_3 {
 	margin-top:-562px;
 	height:562px;
-	background-image:url(svg/mountain_animation.svg);
+	background:url(svg/mountain_animation.svg) no-repeat;
 }
 
 #mountain_4 {
 	margin-top:-216px;
 	height:216px;
-	background-image:url(svg/mountain_code.svg);
+	background:url(svg/mountain_code.svg) no-repeat;
 }	
 
 #tiantan {
@@ -239,7 +239,7 @@ html, body, div, a, a:hover {
 	margin-top:-509px;
 	width:531px;
 	height:509px;
-	background-image:url(svg/tiantan.svg);
+	background:url(svg/tiantan.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -278,7 +278,7 @@ html, body, div, a, a:hover {
 	margin-top:-177px;
 	width:131px;
 	height:177px;
-	background-image:url(svg/tree.svg);
+	background:url(svg/tree.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -291,7 +291,7 @@ html, body, div, a, a:hover {
 	margin-top:-27px;
 	width:20px;
 	height:27px;
-	background-image:url(svg/gress_1.svg);
+	background:url(svg/gress_1.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -300,7 +300,7 @@ html, body, div, a, a:hover {
 	margin-top:-28px;
 	width:30px;
 	height:28px;
-	background-image:url(svg/gress_2.svg);
+	background:url(svg/gress_2.svg) no-repeat;
 }
 
 #education_1 {
@@ -312,7 +312,7 @@ html, body, div, a, a:hover {
 	margin-top:-438px;
 	width:552px;
 	height:438px;
-	background-image:url(svg/education_1.svg);
+	background:url(svg/education_1.svg) no-repeat;
 	background-size:100%;
 }	
 
@@ -325,7 +325,7 @@ html, body, div, a, a:hover {
 	margin-top:-400px;
 	width:146px;
 	height:146px;
-	background-image:url(svg/info_1.svg);
+	background:url(svg/info_1.svg) no-repeat;
 	background-size:100%;
 	-webkit-animation:info_small 0.3s 1 ;
 			animation:info_small 0.3s 1 ;
@@ -336,25 +336,25 @@ html, body, div, a, a:hover {
 #info_2 {
 	margin-left:-72px;
 	margin-top:-400px;
-	background-image:url(svg/info_2.svg);
+	background:url(svg/info_2.svg) no-repeat;
 }
 
 #info_3 {
 	margin-left:-62px;
 	margin-top:-305px;
-	background-image:url(svg/info_3.svg);
+	background:url(svg/info_3.svg) no-repeat;
 }
 
 #info_4 {
 	margin-left:-78px;
 	margin-top:-360px;
-	background-image:url(svg/info_4.svg);
+	background:url(svg/info_4.svg) no-repeat;
 }
 
 #info_5 {
 	margin-left:-73px;
 	margin-top:-305px;
-	background-image:url(svg/info_5.svg);
+	background:url(svg/info_5.svg) no-repeat;
 }
 
 #info_1:hover, #info_2:hover, #info_3:hover, #info_4:hover, #info_5:hover {
@@ -373,7 +373,7 @@ html, body, div, a, a:hover {
 	margin-top:-589px;
 	width:543px;
 	height:589px;
-	background-image:url(svg/education_2.svg);
+	background:url(svg/education_2.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -386,7 +386,7 @@ html, body, div, a, a:hover {
 	margin-top:-54px;
 	width:242px;
 	height:109px;
-	background-image:url(svg/zeppelin.svg);
+	background:url(svg/zeppelin.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -399,7 +399,7 @@ html, body, div, a, a:hover {
 	margin-top:-90px;
 	width:38px;
 	height:90px;
-	background-image:url(svg/station.svg);
+	background:url(svg/station.svg) no-repeat;
 	background-size:100%;
 }	
 
@@ -412,7 +412,7 @@ html, body, div, a, a:hover {
 	margin-top:-249px;
 	width:471px;
 	height:249px;
-	background-image:url(svg/poles.svg);
+	background:url(svg/poles.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -425,7 +425,7 @@ html, body, div, a, a:hover {
 	margin-top:-43px;
 	width:36px;
 	height:43px;
-	background-image:url(svg/trash_can.svg);
+	background:url(svg/trash_can.svg) no-repeat;
 	background-size:100%;
 }	
 	
@@ -438,7 +438,7 @@ html, body, div, a, a:hover {
 	margin-top:-420px;
 	width:228px;
 	height:420px;
-	background-image:url(svg/deep_creative.svg);
+	background:url(svg/deep_creative.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -451,7 +451,7 @@ html, body, div, a, a:hover {
 	margin-top:-67px;
 	width:31px;
 	height:67px;
-	background-image:url(svg/postbox.svg);
+	background:url(svg/postbox.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -464,7 +464,7 @@ html, body, div, a, a:hover {
 	margin-top:-512px;
 	width:271px;
 	height:512px;
-	background-image:url(svg/margin_media.svg);
+	background:url(svg/margin_media.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -477,7 +477,7 @@ html, body, div, a, a:hover {
 	margin-top:-549px;
 	width:256px;
 	height:549px;
-	background-image:url(svg/cheil_opentide.svg);
+	background:url(svg/cheil_opentide.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -490,7 +490,7 @@ html, body, div, a, a:hover {
 	margin-top:-34px;
 	width:31px;
 	height:34px;
-	background-image:url(svg/roadblocks.svg);
+	background:url(svg/roadblocks.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -503,7 +503,7 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:500px;
 	height:400px;
-	background-image:url(svg/beach.svg);
+	background:url(svg/beach.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -517,7 +517,7 @@ html, body, div, a, a:hover {
 	margin-top:-156px;
 	width:228px;
 	height:276px;
-	background-image:url(svg/boat.svg);
+	background:url(svg/boat.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -530,7 +530,7 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:2646px;
 	height:200px;
-	background-image:url(svg/sea_1.svg);
+	background:url(svg/sea_1.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -543,7 +543,7 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:3342px;
 	height:200px;
-	background-image:url(svg/sea_2.svg);
+	background:url(svg/sea_2.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -556,7 +556,7 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:3116px;
 	height:2192px;
-	background-image:url(svg/sea_3.svg);
+	background:url(svg/sea_3.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -569,7 +569,7 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:2980px;
 	height:2154px;
-	background-image:url(svg/sea_4.svg);
+	background:url(svg/sea_4.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -582,7 +582,7 @@ html, body, div, a, a:hover {
 	margin-top:-36px;
 	width:132px;
 	height:73px;
-	background-image:url(svg/tortoise.svg);
+	background:url(svg/tortoise.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -595,7 +595,7 @@ html, body, div, a, a:hover {
 	margin-top:-27px;
 	width:81px;
 	height:55px;
-	background-image:url(svg/fish_1.svg);
+	background:url(svg/fish_1.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -616,7 +616,7 @@ html, body, div, a, a:hover {
 	margin-top:-39px;
 	width:78px;
 	height:78px;
-	background-image:url(svg/pop.svg);
+	background:url(svg/pop.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -748,7 +748,7 @@ html, body, div, a, a:hover {
 	margin-top:-607px;
 	width:706px;
 	height:607px;
-	background-image:url(svg/lighthouse.svg);
+	background:url(svg/lighthouse.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -761,7 +761,7 @@ html, body, div, a, a:hover {
 	margin-top:-400px;
 	width:800px;
 	height:800px;
-	background-image:url(svg/sun.svg);
+	background:url(svg/sun.svg) no-repeat;
 	background-size:100%;
 }
 	
@@ -774,7 +774,7 @@ html, body, div, a, a:hover {
 	margin-top:-100px;
 	width:540px;
 	height:201px;
-	background-image:url(svg/contact_me.svg);
+	background:url(svg/contact_me.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -949,7 +949,7 @@ html, body, div, a, a:hover {
 	margin-top:-400px;
 	width:800px;
 	height:800px;
-	background-image:url(svg/sun.svg);
+	background:url(svg/sun.svg);
 	background-size:100%;
 }
 	
@@ -962,7 +962,7 @@ html, body, div, a, a:hover {
 	margin-top:-100px;
 	width:540px;
 	height:201px;
-	background-image:url(svg/contact_me.svg);
+	background:url(svg/contact_me.svg);
 	background-size:100%;
 }
 }
