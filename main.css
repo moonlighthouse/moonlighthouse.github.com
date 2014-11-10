@@ -7,13 +7,13 @@ html, body, div, a, a:hover {
 
 #weibo {
 	position: fixed;
-	z-index: 100;
+	z-index: 101;
 	margin-left: -200px;
 	margin-top: -40px;
 	width: 200px;
 	height: 40px;
-	bottom: 15px;
-	right: 10px;
+	bottom: -10px;
+	right: -50px;
 	text-align: center;
 }
 
@@ -607,6 +607,7 @@ html, body, div, a, a:hover {
 	background-image:url(svg/fish_3.svg);
 }
 
+
 #pop_1, #pop_2, #pop_3, #pop_4, #pop_5, #pop_ai, #pop_dw, #pop_ps, #pop_fl {
 	position:fixed;
 	z-index:31;
@@ -680,6 +681,38 @@ html, body, div, a, a:hover {
 	background-image:url(svg/pop_ps.svg);
 }
 
+#pop_a, #pop_b, #pop_c, #pop_d, #pop_e, #pop_f {
+	position:fixed;
+	z-index:99;
+	top:80%;
+	left:50%;
+	margin-left:-275px;
+	margin-top:-50px;
+	width:550px;
+	height:100px;
+	background:url(svg/pop_a.svg) no-repeat;
+	background-size:100%;
+}
+
+#pop_b {
+	background-image:url(svg/pop_b.svg);
+}
+
+#pop_c {
+	background-image:url(svg/pop_c.svg);
+}
+
+#pop_d {
+	background-image:url(svg/pop_d.svg);
+}
+
+#pop_e {
+	background-image:url(svg/pop_e.svg);
+}
+
+#pop_f {
+	background-image:url(svg/pop_f.svg);
+}
 #octopus {
 	position:fixed;
 	z-index:30;
@@ -1081,6 +1114,32 @@ html, body, div, a, a:hover {
 	margin-top:0px;
 	width:1490px;
 	height:1077px;
+}
+
+#pop_a, #pop_b, #pop_c, #pop_d, #pop_e, #pop_f {
+	margin-left:-150px;
+	margin-top:-50px;
+	width:300px;
+	height:100px;
+	background:url(svg/pop_a_min.svg) no-repeat;
+	background-size:100%;
+}
+
+#pop_b {
+	background-image:url(svg/pop_b_min.svg);
+}
+
+#pop_c {
+	background-image:url(svg/pop_c_min.svg);
+}
+#pop_d {
+	background-image:url(svg/pop_d_min.svg);
+}
+#pop_e {
+	background-image:url(svg/pop_e_min.svg);
+}
+#pop_f {
+	background-image:url(svg/pop_f_min.svg);
 }
 
 #tortoise {
