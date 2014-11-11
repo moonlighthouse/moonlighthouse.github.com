@@ -33,27 +33,6 @@ html, body, div, a, a:hover {
 	background-image:url(svg/language_en.svg);
 }
 
-#basic_information, #growth_process, #award_honor {
-	no-repeatposition:fixed;
-	z-index:90;
-	top:90%;
-	left:50%;
-	margin-left:-75px;
-	margin-top:-15px;
-	width:150px;
-	height:30px;
-	background:url(svg/basic_information.svg) no-repeat;
-	background-size:100%;
-}
-
-#award_honor {
-	background-image:url(svg/award_honor.svg);
-}
-
-#growth_process {
-	background-image:url(svg/growth_process.svg);
-}
-
 #sky {
 	z-index:0;
 	top:0;
@@ -86,7 +65,7 @@ html, body, div, a, a:hover {
 	margin-top:-250px;
 	width:500px;
 	height:500px;
-	background:url(svg/logo.svg) no-repeat;
+	background:url(svg/logo_cn.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -99,7 +78,7 @@ html, body, div, a, a:hover {
 	margin-top:-63px;
 	width:412px;
 	height:126px;
-	background:url(svg/operation_suggests.svg) no-repeat;
+	background:url(svg/operation_suggests_cn.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -180,14 +159,14 @@ html, body, div, a, a:hover {
 	margin-top:-35px;
 	width:477px;
 	height:69px;
-	background:url(svg/title_1.svg) no-repeat;
+	background:url(svg/title_1_cn.svg) no-repeat;
 	background-size:100%;
 }
 
 #title_2 {
 	margin-left:-197px;
 	width:395px;
-	background-image:url(svg/title_2.svg);
+	background-image:url(svg/title_2_cn.svg);
 }
 
 #title_3 {
@@ -195,7 +174,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:395px;
 	height:144px;
-	background-image:url(svg/title_3.svg);
+	background-image:url(svg/title_3_cn.svg);
 }
 
 #title_4 {
@@ -203,7 +182,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_4.svg);
+	background-image:url(svg/title_4_cn.svg);
 }
 
 #title_5 {
@@ -211,7 +190,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_5.svg);
+	background-image:url(svg/title_5_cn.svg);
 }
 
 #title_6 {
@@ -219,7 +198,7 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_6.svg);
+	background-image:url(svg/title_6_cn.svg);
 }
 
 #title_7 {
@@ -227,13 +206,13 @@ html, body, div, a, a:hover {
 	margin-top:-72px;
 	width:338px;
 	height:144px;
-	background-image:url(svg/title_7.svg);
+	background-image:url(svg/title_7_cn.svg);
 }
 
 #title_8 {
 	margin-left:-197px;
 	width:395px;
-	background-image:url(svg/title_8.svg);
+	background-image:url(svg/title_8_cn.svg);
 }
 
 #mountain_1,#mountain_2,#mountain_3,#mountain_4 {
@@ -245,26 +224,26 @@ html, body, div, a, a:hover {
 	margin-top:-420px;
 	width:381px;
 	height:420px;
-	background:url(svg/mountain_design.svg) no-repeat;
+	background:url(svg/mountain_design_cn.svg) no-repeat;
 	background-size:100%;
 }
 
 #mountain_2 {
 	margin-top:-363px;
 	height:363px;
-	background-image:url(svg/mountain_illustration.svg);
+	background-image:url(svg/mountain_illustration_cn.svg);
 }
 
 #mountain_3 {
 	margin-top:-562px;
 	height:562px;
-	background-image:url(svg/mountain_animation.svg);
+	background-image:url(svg/mountain_animation_cn.svg);
 }
 
 #mountain_4 {
 	margin-top:-216px;
 	height:216px;
-	background-image:url(svg/mountain_code.svg);
+	background-image:url(svg/mountain_code_cn.svg);
 }	
 
 #tiantan {
@@ -362,7 +341,7 @@ html, body, div, a, a:hover {
 	margin-top:-400px;
 	width:146px;
 	height:146px;
-	background:url(svg/info_1.svg) no-repeat;
+	background:url(svg/info_1_cn.svg) no-repeat;
 	background-size:100%;
 	-webkit-animation:info_small 0.3s 1 ;
 			animation:info_small 0.3s 1 ;
@@ -373,25 +352,25 @@ html, body, div, a, a:hover {
 #info_2 {
 	margin-left:-72px;
 	margin-top:-400px;
-	background-image:url(svg/info_2.svg);
+	background-image:url(svg/info_2_cn.svg);
 }
 
 #info_3 {
 	margin-left:-62px;
 	margin-top:-305px;
-	background-image:url(svg/info_3.svg);
+	background-image:url(svg/info_3_cn.svg);
 }
 
 #info_4 {
 	margin-left:-78px;
 	margin-top:-360px;
-	background-image:url(svg/info_4.svg);
+	background-image:url(svg/info_4_cn.svg);
 }
 
 #info_5 {
 	margin-left:-73px;
 	margin-top:-305px;
-	background-image:url(svg/info_5.svg);
+	background-image:url(svg/info_5_cn.svg);
 }
 
 #info_1:hover, #info_2:hover, #info_3:hover, #info_4:hover, #info_5:hover{
@@ -727,28 +706,28 @@ html, body, div, a, a:hover {
 	margin-top:-50px;
 	width:550px;
 	height:100px;
-	background:url(svg/pop_a.svg) no-repeat;
+	background:url(svg/pop_a_cn.svg) no-repeat;
 	background-size:100%;
 }
 
 #pop_b {
-	background-image:url(svg/pop_b.svg);
+	background-image:url(svg/pop_b_cn.svg);
 }
 
 #pop_c {
-	background-image:url(svg/pop_c.svg);
+	background-image:url(svg/pop_c_cn.svg);
 }
 
 #pop_d {
-	background-image:url(svg/pop_d.svg);
+	background-image:url(svg/pop_d_cn.svg);
 }
 
 #pop_e {
-	background-image:url(svg/pop_e.svg);
+	background-image:url(svg/pop_e_cn.svg);
 }
 
 #pop_f {
-	background-image:url(svg/pop_f.svg);
+	background-image:url(svg/pop_f_cn.svg);
 }
 
 #octopus {
@@ -845,7 +824,7 @@ html, body, div, a, a:hover {
 	margin-top:-100px;
 	width:540px;
 	height:201px;
-	background:url(svg/contact_me.svg) no-repeat;
+	background:url(svg/contact_me_cn.svg) no-repeat;
 	background-size:100%;
 }
 
@@ -1033,7 +1012,7 @@ html, body, div, a, a:hover {
 	margin-top:-100px;
 	width:540px;
 	height:201px;
-	background:url(svg/contact_me.svg);
+	background:url(svg/contact_me_cn.svg);
 	background-size:100%;
 }
 }
@@ -1159,25 +1138,25 @@ html, body, div, a, a:hover {
 	margin-top:-50px;
 	width:300px;
 	height:100px;
-	background:url(svg/pop_a_min.svg) no-repeat;
+	background:url(svg/pop_a_min_cn.svg) no-repeat;
 	background-size:100%;
 }
 
 #pop_b {
-	background-image:url(svg/pop_b_min.svg);
+	background-image:url(svg/pop_b_min_cn.svg);
 }
 
 #pop_c {
-	background-image:url(svg/pop_c_min.svg);
+	background-image:url(svg/pop_c_min_cn.svg);
 }
 #pop_d {
-	background-image:url(svg/pop_d_min.svg);
+	background-image:url(svg/pop_d_min_cn.svg);
 }
 #pop_e {
-	background-image:url(svg/pop_e_min.svg);
+	background-image:url(svg/pop_e_min_cn.svg);
 }
 #pop_f {
-	background-image:url(svg/pop_f_min.svg);
+	background-image:url(svg/pop_f_min_cn.svg);
 }
 
 #tortoise {
