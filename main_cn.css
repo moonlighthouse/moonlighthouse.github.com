@@ -536,10 +536,10 @@ html, body, div, a, a:hover {
 	z-index:60;
 	top:80%;
 	left:50%;
-	margin-left:-500px;
+	margin-left:-250px;
 	margin-top:0px;
-	width:1000px;
-	height:800px;
+	width:500px;
+	height:400px;
 	background:url(svg/beach.svg) no-repeat;
 	background-size:100%;
 }
