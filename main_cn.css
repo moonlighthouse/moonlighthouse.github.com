@@ -568,7 +568,7 @@ html, body, div, a, a:hover {
 	width:5292px;
 	height:200px;
 	background:url(svg/sea_1.svg) repeat-x;
-	background-size:50%;
+	background-size:100%;
 }
 
 #sea_2 {
@@ -581,7 +581,7 @@ html, body, div, a, a:hover {
 	width:6684px;
 	height:200px;
 	background:url(svg/sea_2.svg) repeat-x;
-	background-size:50%;
+	background-size:100%;
 }
 
 #sea_3 {
@@ -594,7 +594,7 @@ html, body, div, a, a:hover {
 	width:6232px;
 	height:2192px;
 	background:url(svg/sea_3.svg) repeat-x;
-	background-size:50%;
+	background-size:100%;
 }
 
 #sea_4 {
@@ -607,7 +607,7 @@ html, body, div, a, a:hover {
 	width:5960px;
 	height:2154px;
 	background:url(svg/sea_4.svg) repeat-x;
-	background-size:50%;
+	background-size:100%;
 }
 
 #tortoise {
