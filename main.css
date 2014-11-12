@@ -71,10 +71,10 @@ html, body, div, a, a:hover {
 	top:0%;
 	left:0%;
     margin-top:-280px;
-	width:3000px;
+	width:5000px;
 	height:500px;
-	background:url(svg/bg_mountain.svg) no-repeat;
-	background-size:100%;
+	background:url(svg/bg_mountain.svg) repeat-x;
+	background-size:60%;
 }
 
 #logo {
@@ -536,10 +536,10 @@ html, body, div, a, a:hover {
 	z-index:60;
 	top:80%;
 	left:50%;
-	margin-left:-250px;
+	margin-left:-500px;
 	margin-top:0px;
-	width:500px;
-	height:400px;
+	width:1000px;
+	height:800px;
 	background:url(svg/beach.svg) no-repeat;
 	background-size:100%;
 }
@@ -565,10 +565,10 @@ html, body, div, a, a:hover {
 	left:50%;
 	margin-left:0px;
 	margin-top:0px;
-	width:2646px;
+	width:5292px;
 	height:200px;
-	background:url(svg/sea_1.svg) no-repeat;
-	background-size:100%;
+	background:url(svg/sea_1.svg) repeat-x;
+	background-size:50%;
 }
 
 #sea_2 {
@@ -578,10 +578,10 @@ html, body, div, a, a:hover {
 	left:50%;
 	margin-left:0px;
 	margin-top:0px;
-	width:3342px;
+	width:6684px;
 	height:200px;
-	background:url(svg/sea_2.svg) no-repeat;
-	background-size:100%;
+	background:url(svg/sea_2.svg) repeat-x;
+	background-size:50%;
 }
 
 #sea_3 {
@@ -591,10 +591,10 @@ html, body, div, a, a:hover {
 	left:50%;
 	margin-left:0px;
 	margin-top:0px;
-	width:3116px;
+	width:6232px;
 	height:2192px;
-	background:url(svg/sea_3.svg) no-repeat;
-	background-size:100%;
+	background:url(svg/sea_3.svg) repeat-x;
+	background-size:50%;
 }
 
 #sea_4 {
@@ -604,10 +604,10 @@ html, body, div, a, a:hover {
 	left:50%;
 	margin-left:0px;
 	margin-top:0px;
-	width:2980px;
+	width:5960px;
 	height:2154px;
-	background:url(svg/sea_4.svg) no-repeat;
-	background-size:100%;
+	background:url(svg/sea_4.svg) repeat-x;
+	background-size:50%;
 }
 
 #tortoise {
@@ -1012,29 +1012,21 @@ html, body, div, a, a:hover {
 }
 
 #sun {
-	position:fixed;
-	z-index:10;
 	top:85%;
 	left:20%;
 	margin-left:-400px;
 	margin-top:-400px;
 	width:800px;
 	height:800px;
-	background:url(svg/sun.svg);
-	background-size:100%;
 }
 	
 #contact_me {
-	position:fixed;
-	z-index:30;
 	top:80%;
 	left:50%;
 	margin-left:-270px;
 	margin-top:-100px;
 	width:540px;
 	height:201px;
-	background:url(svg/contact_me.svg);
-	background-size:100%;
 }
 }
 
